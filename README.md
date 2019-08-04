@@ -12,7 +12,7 @@ Depends on cvt to generate monitor timings based on provided resolution and xran
     -v, --verbose    Enable verbose output for all subcommands.
 
 ## OPTIONS:
-    -f, --filename <filename>    Specify a modes file to load
+    -f, --filename <filename>    Specify a modes file to load. Defaults to $XDG_CONFIG_HOME/cathode/modes.yml it is defined or $HOME/.config/cathode/modes.yml otherwise
 
 ## SUBCOMMANDS:
     add      create a new mode.
